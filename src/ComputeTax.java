@@ -21,6 +21,7 @@ public class ComputeTax {
 
         //compute tax
         double tax = 0;
+
         switch(status){
             case 0: if (income <= 8350){
                 tax = income * 0.10;
@@ -101,7 +102,7 @@ public class ComputeTax {
         }
 
 
-
+//      Replaced with switch statements
 //        if (status == 0){
 //            if (income <= 8350){
 //                tax = income * 0.10;
